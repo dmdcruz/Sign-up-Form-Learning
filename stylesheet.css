@@ -1,0 +1,23 @@
+html { height:100%; }
+body {
+    display: flex;
+    height: 100%;
+}
+.titleContainer {
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+.title {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30%;
+    margin-bottom: 70%;
+    
+}
+img {
+    box-sizing: content-box;
+}
+
