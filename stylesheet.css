@@ -39,7 +39,6 @@ img {
 }
 .titleContent{
     display: flex;
-    border: yellow solid 2px;
     margin-top: 7% ;
     height: 50%;
     width: 100%;
@@ -61,13 +60,20 @@ img {
     font-family: sans-serif;
     font-size: large;
     border-style: none;
+    width: auto;
+    
 }
 .inputFields{
     background-color: white;
-    border: none
+    border: none;
+    box-shadow: 0 5px 20px  #adadad;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .submitBtn{
     border: none;
+    width: 100%;
 }
 ul{
     display: flex;
@@ -84,6 +90,19 @@ li{
 }
 button{
     background-color: #596D48;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #E5E7EB;
+    border-radius: 7px;
+    border:none;
+    font-weight: bolder;
+    font-size: large;
+    padding: 2% 7%;
+    box-shadow: 5px 5px 20px #adadad;
+}
+.alreadyAccount{
+    margin-top: 30px;
+    margin-left: 30px;
 }
 legend{
     color: rgb(83, 83, 83);
@@ -99,6 +118,19 @@ label{
     font-weight: bolder;
     color: rgb(83, 83, 83);
 }
-
+input{
+    border-color: #E5E7EB;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+input:focus{
+    outline: 2px rgb(10, 10, 206) solid;
+    box-shadow: 2px 2px 5px grey;
+}
+input:invalid{
+    border: 2px rgb(231, 58, 58) solid;
+    box-shadow: 2px 2px 5px grey;
+}
 
 
